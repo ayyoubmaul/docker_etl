@@ -1,0 +1,63 @@
+[2022-10-06 00:46:01,330] {processor.py:153} INFO - Started process (PID=2759) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:01,332] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-06 00:46:01,333] {logging_mixin.py:115} INFO - [2022-10-06 00:46:01,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:01,344] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:02,734] {logging_mixin.py:115} INFO - [2022-10-06 00:46:02,733] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:46:03,756] {logging_mixin.py:115} INFO - [2022-10-06 00:46:03,755] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:46:03,792] {logging_mixin.py:115} INFO - [2022-10-06 00:46:03,792] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-06 00:46:03,794] {logging_mixin.py:115} INFO - [2022-10-06 00:46:03,794] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-06 00:46:03,814] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 2.489 seconds
+[2022-10-06 00:46:34,243] {processor.py:153} INFO - Started process (PID=2826) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:34,246] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-06 00:46:34,247] {logging_mixin.py:115} INFO - [2022-10-06 00:46:34,247] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:34,268] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:46:34,926] {logging_mixin.py:115} INFO - [2022-10-06 00:46:34,926] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:46:35,490] {logging_mixin.py:115} INFO - [2022-10-06 00:46:35,490] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:46:35,509] {logging_mixin.py:115} INFO - [2022-10-06 00:46:35,509] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-06 00:46:35,511] {logging_mixin.py:115} INFO - [2022-10-06 00:46:35,511] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-06 00:46:35,523] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.286 seconds
+[2022-10-06 00:47:05,891] {processor.py:153} INFO - Started process (PID=2893) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:05,893] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-06 00:47:05,896] {logging_mixin.py:115} INFO - [2022-10-06 00:47:05,896] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:05,910] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:06,860] {logging_mixin.py:115} INFO - [2022-10-06 00:47:06,860] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:47:07,464] {logging_mixin.py:115} INFO - [2022-10-06 00:47:07,462] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/upload_to_gs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/upload_to_gs.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-10-06 00:47:07,491] {logging_mixin.py:115} INFO - [2022-10-06 00:47:07,490] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:47:07,518] {logging_mixin.py:115} INFO - [2022-10-06 00:47:07,518] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-06 00:47:07,519] {logging_mixin.py:115} INFO - [2022-10-06 00:47:07,519] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-06 00:47:07,537] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.653 seconds
+[2022-10-06 00:47:37,600] {processor.py:153} INFO - Started process (PID=2951) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:37,602] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-06 00:47:37,603] {logging_mixin.py:115} INFO - [2022-10-06 00:47:37,603] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:37,609] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:47:38,258] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,258] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:47:38,926] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,924] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/upload_to_gs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/upload_to_gs.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-10-06 00:47:38,952] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,951] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:47:38,969] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,969] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-06 00:47:38,970] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,970] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-06 00:47:38,982] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.386 seconds
+[2022-10-06 00:48:09,269] {processor.py:153} INFO - Started process (PID=3020) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:48:09,272] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-06 00:48:09,273] {logging_mixin.py:115} INFO - [2022-10-06 00:48:09,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:48:09,282] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-06 00:48:09,914] {logging_mixin.py:115} INFO - [2022-10-06 00:48:09,914] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:48:10,655] {logging_mixin.py:115} INFO - [2022-10-06 00:48:10,654] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:48:10,674] {logging_mixin.py:115} INFO - [2022-10-06 00:48:10,674] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-06 00:48:10,675] {logging_mixin.py:115} INFO - [2022-10-06 00:48:10,675] {dag.py:2931} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-06 00:48:10,689] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.427 seconds

@@ -1,0 +1,75 @@
+[2022-10-06 00:46:02,626] {processor.py:153} INFO - Started process (PID=2761) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:02,631] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-06 00:46:02,633] {logging_mixin.py:115} INFO - [2022-10-06 00:46:02,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:02,689] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:04,028] {logging_mixin.py:115} INFO - [2022-10-06 00:46:04,027] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:46:05,154] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,154] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-10-06 00:46:05,194] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,194] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-06 00:46:05,196] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,196] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:46:05,197] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,197] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:46:05,209] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,209] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:46:05,217] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,217] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:46:05,219] {logging_mixin.py:115} INFO - [2022-10-06 00:46:05,218] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:46:05,232] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 2.613 seconds
+[2022-10-06 00:46:35,573] {processor.py:153} INFO - Started process (PID=2830) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:35,575] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-06 00:46:35,577] {logging_mixin.py:115} INFO - [2022-10-06 00:46:35,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:35,609] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:46:36,177] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,177] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:46:36,707] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,707] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-10-06 00:46:36,725] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,725] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-06 00:46:36,727] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,727] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:46:36,728] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,727] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:46:36,735] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,735] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:46:36,742] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,742] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:46:36,743] {logging_mixin.py:115} INFO - [2022-10-06 00:46:36,743] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:46:36,751] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 1.184 seconds
+[2022-10-06 00:47:06,893] {processor.py:153} INFO - Started process (PID=2899) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:06,895] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-06 00:47:06,896] {logging_mixin.py:115} INFO - [2022-10-06 00:47:06,896] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:06,931] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:07,640] {logging_mixin.py:115} INFO - [2022-10-06 00:47:07,639] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:47:08,192] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,190] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/upload_to_gs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/upload_to_gs.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-10-06 00:47:08,213] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,213] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-10-06 00:47:08,234] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,234] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-06 00:47:08,235] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,235] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:47:08,236] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,236] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:47:08,243] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,243] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:47:08,250] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,249] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:47:08,250] {logging_mixin.py:115} INFO - [2022-10-06 00:47:08,250] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:47:08,260] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 1.373 seconds
+[2022-10-06 00:47:38,880] {processor.py:153} INFO - Started process (PID=2956) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:38,882] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-06 00:47:38,883] {logging_mixin.py:115} INFO - [2022-10-06 00:47:38,883] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:38,917] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:47:39,554] {logging_mixin.py:115} INFO - [2022-10-06 00:47:39,554] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2022-10-06 00:47:40,182] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,180] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/upload_to_gs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/upload_to_gs.py", line 3, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2022-10-06 00:47:40,215] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,215] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-10-06 00:47:40,238] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,238] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-06 00:47:40,239] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,239] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:47:40,240] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,240] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:47:40,248] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,248] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-10-06 00:47:40,256] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,256] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-06 00:47:40,257] {logging_mixin.py:115} INFO - [2022-10-06 00:47:40,257] {dag.py:2931} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-06 00:47:40,267] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 1.392 seconds
+[2022-10-06 00:48:10,326] {processor.py:153} INFO - Started process (PID=3022) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:48:10,327] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-06 00:48:10,328] {logging_mixin.py:115} INFO - [2022-10-06 00:48:10,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:48:10,364] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-06 00:48:11,016] {logging_mixin.py:115} INFO - [2022-10-06 00:48:11,016] {native_type_compatibility.py:250} INFO - Using Any for unsupported type: typing.Sequence[~T]

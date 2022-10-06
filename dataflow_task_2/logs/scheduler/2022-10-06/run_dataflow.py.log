@@ -1,0 +1,85 @@
+[2022-10-06 00:45:49,397] {processor.py:153} INFO - Started process (PID=2731) to work on /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:45:49,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/run_dataflow.py for tasks to queue
+[2022-10-06 00:45:49,424] {logging_mixin.py:115} INFO - [2022-10-06 00:45:49,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:45:49,457] {logging_mixin.py:115} INFO - [2022-10-06 00:45:49,450] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/run_dataflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/run_dataflow.py", line 20
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-10-06 00:45:49,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:45:50,799] {processor.py:161} INFO - Processing /opt/airflow/dags/run_dataflow.py took 1.420 seconds
+[2022-10-06 00:46:22,303] {processor.py:153} INFO - Started process (PID=2790) to work on /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:22,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/run_dataflow.py for tasks to queue
+[2022-10-06 00:46:22,308] {logging_mixin.py:115} INFO - [2022-10-06 00:46:22,308] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:22,318] {logging_mixin.py:115} INFO - [2022-10-06 00:46:22,316] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/run_dataflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/run_dataflow.py", line 20
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-10-06 00:46:22,321] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:22,351] {processor.py:161} INFO - Processing /opt/airflow/dags/run_dataflow.py took 0.057 seconds
+[2022-10-06 00:46:52,876] {processor.py:153} INFO - Started process (PID=2846) to work on /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:52,878] {processor.py:641} INFO - Processing file /opt/airflow/dags/run_dataflow.py for tasks to queue
+[2022-10-06 00:46:52,880] {logging_mixin.py:115} INFO - [2022-10-06 00:46:52,880] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:52,888] {logging_mixin.py:115} INFO - [2022-10-06 00:46:52,887] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/run_dataflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/run_dataflow.py", line 20
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-10-06 00:46:52,889] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:46:52,916] {processor.py:161} INFO - Processing /opt/airflow/dags/run_dataflow.py took 0.045 seconds
+[2022-10-06 00:47:23,364] {processor.py:153} INFO - Started process (PID=2911) to work on /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:23,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/run_dataflow.py for tasks to queue
+[2022-10-06 00:47:23,368] {logging_mixin.py:115} INFO - [2022-10-06 00:47:23,368] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:23,375] {logging_mixin.py:115} INFO - [2022-10-06 00:47:23,374] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/run_dataflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/run_dataflow.py", line 20
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-10-06 00:47:23,376] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:23,401] {processor.py:161} INFO - Processing /opt/airflow/dags/run_dataflow.py took 0.042 seconds
+[2022-10-06 00:47:54,091] {processor.py:153} INFO - Started process (PID=2977) to work on /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:54,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/run_dataflow.py for tasks to queue
+[2022-10-06 00:47:54,093] {logging_mixin.py:115} INFO - [2022-10-06 00:47:54,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:54,101] {logging_mixin.py:115} INFO - [2022-10-06 00:47:54,099] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/run_dataflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/run_dataflow.py", line 20
+    )
+    ^
+SyntaxError: invalid syntax
+[2022-10-06 00:47:54,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/run_dataflow.py
+[2022-10-06 00:47:54,127] {processor.py:161} INFO - Processing /opt/airflow/dags/run_dataflow.py took 0.043 seconds
