@@ -1,4 +1,5 @@
 version: "3.7"
+
 services:
   db-mysql:
     image: mysql:8
@@ -9,10 +10,10 @@ services:
       MYSQL_PASSWORD: mysql
       MYSQL_DATABASE: operational
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      # - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./data:/docker-entrypoint-initdb.d/init_data
     ports:
-      - "3305:3306"
+      - "3305:3306" # local:docker
 
   db-psql:
     image: postgres:11

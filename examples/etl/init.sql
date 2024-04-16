@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS operational;
 
+SET GLOBAL local_infile=1;
+
 USE operational;
 
 CREATE TABLE IF NOT EXISTS youtube (
